@@ -1,0 +1,33 @@
+.box{
+   width: 300px; 
+   background: skyblue;
+   border: 10px solid blue;
+   padding: 50px 30px;
+   /* padding-top: 50px;
+   padding-right: 30px; */
+   box-sizing: border-box;
+   margin: 50px;
+}
+.box1{ 
+    width: 1250px;
+    height: 150px;
+    background: orange;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 0 auto; */
+}
+.child
+{
+    border: 1px solid black;
+    padding: 50px;
+}
+.parent 
+{
+    display: flex;
+    justify-content:start;
+    /* start end center space-between space-around space-evenly; */
+    height: 450px;
+    background: pink;
+    align-items:stretch;
+    /* stretch start end  center */
+}

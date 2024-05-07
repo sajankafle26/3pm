@@ -1,0 +1,31 @@
+h3{ 
+    background: brown; 
+    color: aqua;
+}
+.a 
+{
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    border-width: 10px;
+    border-color: blue;
+    border-style: dotted;
+    box-sizing: border-box;
+    outline: 15px dotted red;
+    outline-offset: 10px;
+    border-radius: 140px ;
+}
+.b
+{
+    width: 200px;
+    height: 200px;
+    background: orange;
+    border: 10px solid skyblue;
+    box-sizing: border-box;
+}
+.arrow 
+{
+    border: 30px solid;
+    border-color: skyblue transparent transparent transparent;
+    width: 0;
+}

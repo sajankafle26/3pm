@@ -1,0 +1,92 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background: green;
+    transition-duration: 4.9s;
+   transition-property: all;
+   transition-timing-function: linear;
+   /* transition: all 4.9s linear 0s; */
+}
+.box:hover 
+{
+    width: 400px;
+    transition-delay: 2s;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background: orange;
+    transition: 0.9s;
+    transform-origin: right top;
+}
+.box1:hover 
+{
+    transform: rotate(90deg);
+}
+.grey
+{
+    width: 300px;
+    height: 300px;
+    background: grey;
+}
+.box2{
+    width: 100%; height: 100%; background: pink;
+    transform:perspective(1000px) rotate3d(1,0,0,0deg);
+    transition: 0.9s;
+}
+.box2:hover 
+{
+    transform:perspective(1000px) rotate3d(1,0,0,180deg);
+}
+.list 
+{
+    position: relative;
+}
+.drop
+{
+    position:absolute;
+    top: 30px;    left: 0;    width: 170px;
+    height: 200px;
+    box-shadow: 0px 0px 3px 3px #ccc;
+    transition: 0.9s;
+    transform: perspective(600px) rotateX(-90deg);
+    visibility: hidden;
+    transform-origin: left top;
+}
+.list:hover .drop 
+{
+  visibility: visible;
+  transform: perspective(600px) rotateX(0deg);
+}
+.list a 
+{
+    background: green;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px;
+}
+.box3
+{
+    width: 200px;
+    height: 200px;
+    background: orange;
+   transition: 0.9s;
+}
+.box3:hover{
+     transform: skew(30deg, 0deg);
+}
+.box4
+{
+    width: 200px;height: 200px;background: red;
+   transition: 0.9s;
+}
+.box4:hover {
+    transform: translate(30px,-100px);}
+.box5{
+    width: 200px;  height: 200px;   background: blue;
+   transition: 0.9s; transform-origin: left top;
+}
+.box5:hover 
+{
+    transform: scale(3,2);
+}

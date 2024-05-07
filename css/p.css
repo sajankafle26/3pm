@@ -1,0 +1,41 @@
+body {
+    height: 1990px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+}
+.a {
+    background: red;
+    left: 30px;
+    top: 30px;
+    position: relative;
+}
+.b {
+    background: blue;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+.c {
+    background: pink;
+    position: sticky;
+    top: 0px;
+}
+.small{
+    width: 60px; height: 60px;
+    background: green;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+}
+.small1{
+    width: 60px; height: 60px;
+    background: lightgreen;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    z-index: 1;
+}

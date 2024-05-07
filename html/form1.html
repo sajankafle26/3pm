@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://google.com" novalidate>
+        <input type="text" name="fname">
+        <hr>
+        Date: <input type="date" name="date">
+        <hr>
+        Time: <input type="time" name="time">
+        <hr>
+        Month: <input type="month" name="month">
+        <hr>
+        week: <input type="week" name="week">
+        <hr>
+        Gender: <select name="gender">
+            <option>Male</option>  <option>FeMale</option>
+        </select>
+        <hr>
+        All Courses: <input type="search" name="courses" list="abc">
+        <datalist id="abc"> 
+            <option>Mern</option>  <option>React Js</option>  <option>PHP</option>  <option>Web Design</option>
+        </datalist>
+        <hr>
+        Food: <select name="food" multiple>
+            <optgroup label="Fruits">
+                <option>Mango</option> <option>Apple</option>
+            </optgroup>
+            <optgroup label="Veg">
+                <option>Potato</option> <option>Tomato</option>
+            </optgroup>
+        </select>
+        <hr>
+        Photo: <input type="file" name="photo" accept="image/*">
+        <hr>
+        placeholder <input type="text" name="normal" placeholder="ENter Full Name">
+        <hr>
+        readonly <input type="text" name="normal1" value="ENter Full Name" readonly>
+        <hr>
+        disabled <input type="text" name="normal2" value="ENter Full Name" disabled>
+        <hr>
+        required <input type="text" name="normal3" required>
+        <hr>
+        hidden: <input type="hidden" value="OKKK" name="normal4">
+        <hr>
+        autocomplete <input type="text" name="email" autocomplete="off">
+        <hr>
+        autofocus <input type="text" name="normal5" autofocus>
+        <hr>
+        <input type="checkbox" name="coures"> HTML   <input type="checkbox" name="coures"> CSS
+        <hr>
+        <button>Send</button>
+        <input type="image" src="a.png" width="50">
+        <button type="reset">Reset</button>
+        <input type="submit" value="OK">
+    </form>
+
+    <form action="https://www.google.com/search" target="_blank">
+        <fieldset  >
+            <legend>Google search</legend>
+            <input type="search" name="q"> <button>Search</button>
+        </fieldset>
+    </form>
+</body>
+</html>

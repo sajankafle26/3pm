@@ -1,0 +1,20 @@
+.box p 
+{
+    color: red;
+    /* descendant selector  */
+}
+.box > p 
+{
+    background: green;
+    /* child selector */
+}
+.box + p 
+{
+    text-transform: uppercase;
+    /* adjacent sibling selector */
+}
+.box ~ p 
+{
+    font-size: 55px;
+    /* general sibling selector (~) */
+}

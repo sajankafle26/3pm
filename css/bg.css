@@ -1,0 +1,74 @@
+.box 
+{
+    height: 100vh;
+    background-color: pink;
+    background-image: url(a.jpg);
+    background-size: 150px auto;
+    /*width height */
+    background-repeat:no-repeat ;
+    /*repeat no-repeat repeat-x repeat-y  */
+    background-position:100px center;
+}
+.box1
+{
+    height: 100vh;
+    background-image: linear-gradient(red, green, yellow);
+}
+.box2
+{
+    height: 100vh;
+    background-image: radial-gradient(skyblue, blue);
+}
+.box2
+{
+    height: 100vh;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.535), rgba(0, 128, 0, 0.701)), url(./b.jpeg);
+    background-attachment: fixed;
+}
+.box4
+{
+    width: 300px;
+    text-align: justify;
+    /*left right center justify*/
+    text-transform: lowercase;
+    /* capitalize lowercase uppercase */
+    text-decoration:line-through  ;
+    /* underline overline line-through */
+    text-shadow: 0px 0px 3px blue;
+    box-shadow: 0px 0px 2px 3px grey;
+    letter-spacing: 2px;
+    word-spacing: 20px;
+    font-size: 33px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Verdana;
+    color: aqua;
+}
+a 
+{
+    text-decoration: none;
+}
+.box6 
+{
+    width: 100px;
+    background: pink;
+    height: 100px;
+    float: left;
+    border: 2px solid red;
+}
+.a
+{
+    overflow: visible;
+}
+.b
+{
+    overflow: hidden;
+}
+.c 
+{
+    overflow: scroll;
+}
+.d 
+{
+    overflow: auto;
+}

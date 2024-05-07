@@ -1,0 +1,28 @@
+.box 
+{
+    border: 2px solid #000;
+    padding: 40px;
+    width: 450px;
+}
+.con 
+{
+    background: pink;
+    display: flex;
+    /*flex , inline-flex */
+    flex-direction: row;
+    /*row ,column, row-reverse, column-reverse */
+    justify-content:start;
+    /* start end center space-between space-around space-evenly*/
+    flex-wrap: wrap;
+    /*nowrap , wrap, wrap-reverse   */
+    /* flex-flow: row nowrap; */
+    height: 450px;
+    align-items: center;
+    /*stretch start end center baseline*/
+    align-content: space-evenly;
+     /* start end center space-between space-around */
+}
+/* .c
+{
+        font-size: 66px;
+} */

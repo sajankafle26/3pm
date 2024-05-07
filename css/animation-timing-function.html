@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{ width: 100px; height: 100px; border: 2px solid red; position: relative;
+            animation: mm 5s;
+        }
+        @keyframes mm {
+           0%{ left: 0;}   100%{ left: 500px;}
+        }
+        .a{ animation-timing-function: ease;}
+        .b{ animation-timing-function: linear;}
+        .c{ animation-timing-function: ease-in;}
+        .d{ animation-timing-function: ease-out;}
+        .e{ animation-timing-function: ease-in-out;}
+        .f{ animation-timing-function: steps(5, start);}
+        .g{ animation-timing-function: steps(5, end);}
+    </style>
+</head>
+<body>
+    <div class="box a">Ease</div>
+    <div class="box b">linear</div>
+    <div class="box c">Ease In</div>
+    <div class="box d">Ease Out</div>
+    <div class="box e">Ease In out</div>
+    <div class="box f">step</div>
+    <div class="box g">step</div>
+</body>
+</html>

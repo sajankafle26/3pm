@@ -1,0 +1,10 @@
+.box{ border: 2px solid blue; padding: 50px;}
+.con{ display: flex; height: 450px; background: skyblue;}
+.a{
+    flex-grow: 1;
+    align-self: start;
+    order: 4;
+}
+.b{ flex-grow: 2; align-self: end; order: 1;}
+.c{ flex-basis: 300px; align-self: center; order: 2;}
+.d{ align-self: stretch; order: 3;}
